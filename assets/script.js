@@ -7,6 +7,18 @@
   
     passwordText.value = password;
   }
+
+  var lowerList = "abcdefghijklmnopqrstuvwxyz";
+var lowerArray = lowerList.split("");
+
+var upperList = lowerList.toUpperCase();
+var upperArray = upperList.split("");
+
+var numberList = "1234567890"
+var numberArray = numberList.split("");
+
+var specialList = " !#$%&'()*+,-./:;<=>?@][^_`{|}~";
+var specialArray = specialList.split("");
   
   if (!hasLowercase || !hasUppercase) {
     alert ("Choose at least one character type.");
